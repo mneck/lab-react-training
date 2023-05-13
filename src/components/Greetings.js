@@ -1,6 +1,5 @@
 function Greetings(props) {
   let greeting = 'Hello';
-  console.log(props.lang);
   if (props.lang === 'de') {
     greeting = 'Hallo';
   }
